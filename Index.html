@@ -225,7 +225,7 @@ section{padding:100px 0;position:relative;}
 .rocket{width:80px;height:160px;position:relative;animation:rocketShake .8s ease-in-out infinite;animation-delay:0s;}
 
 @keyframes rocketShake{0%,100%{transform:translateX(0) translateY(0);}25%{transform:translateX(-1.5px) translateY(0);}50%{transform:translateX(0) translateY(1px);}75%{transform:translateX(1.5px) translateY(0);}}
-@keyframes rocketLaunch{0%{transform:translateX(-50%) translateY(0);}8%{transform:translateX(-50%) translateY(0) translateX(-3px);}16%{transform:translateX(-50%) translateY(0) translateX(3px);}25%{transform:translateX(-50%) translateY(0) translateX(-2px);}33%{transform:translateX(-50%) translateY(-30px);}100%{transform:translateX(-50%) translateY(-450px);}}
+@keyframes rocketLaunch{0%{transform:translateX(-50%) translateY(0);}8%{transform:translateX(-50%) translateY(0) translateX(-3px);}16%{transform:translateX(-50%) translateY(0) translateX(3px);}25%{transform:translateX(-50%) translateY(0) translateX(-2px);}33%{transform:translateX(-50%) translateY(-30px);}100%{transform:translateX(-50%) translateY(-450px);opacity:0;}}
 
 .flame{position:absolute;bottom:-30px;left:50%;transform:translateX(-50%);width:30px;height:0;background:linear-gradient(to top,#FF4D2E 0%,#FFB800 50%,rgba(255,184,0,.4) 80%,transparent 100%);border-radius:50% 50% 30% 30% / 40% 40% 60% 60%;filter:blur(2px);animation:flameIgnite 3.2s ease-out forwards;}
 .flame-inner{position:absolute;bottom:-50px;left:50%;transform:translateX(-50%);width:18px;height:0;background:linear-gradient(to top,#fff 0%,#FFB800 50%,transparent 100%);border-radius:50%;filter:blur(1px);animation:flameIgnite 3.2s ease-out forwards;animation-delay:.05s;}
